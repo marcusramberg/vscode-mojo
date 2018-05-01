@@ -1,12 +1,8 @@
 {
-  "fileTypes": [
-    "pl",
-    "pm",
-    "t"
-  ],
+  "fileTypes": [ ],
   "foldingStartMarker": "(/\\*|(\\{|\\[|\\()\\s*$)",
   "foldingStopMarker": "(\\*/|^\\s*(\\}|\\]|\\)))",
-  "uuid": "25654272-B054-445D-8B94-1D383F739ECF",
+  "injectionSelector": "L:code.perl",
   "patterns": [
     {
       "end": "^__END__$\\n?",

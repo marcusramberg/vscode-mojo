@@ -28,18 +28,6 @@
     "contributes": {
         "languages": [
             {
-                "id": "perl+mojolicious",
-                "aliases": [
-                    "Perl (Mojolicious)",
-                    "Perl+Mojolicious"
-                ],
-                "extensions": [
-                    ".ep",
-                    ".epl"
-                ],
-                "configuration": "./language-configuration.json"
-            },
-            {
                 "id": "mojolicious",
                 "aliases": [
                     "Mojolicious",
@@ -57,7 +45,7 @@
         ],
         "grammars": [
             {
-                "language": "perl+mojolicious",
+                "injectInto": "source.mojolicious",
                 "scopeName": "source.perl.mojolicious",
                 "path": "./syntaxes/Perl+Mojolicious.json"
             },
