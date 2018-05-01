@@ -1,32 +1,27 @@
 {
-  "fileTypes": [ ],
+  "fileTypes": [],
   "foldingStartMarker": "(/\\*|(\\{|\\[|\\()\\s*$)",
   "foldingStopMarker": "(\\*/|^\\s*(\\}|\\]|\\)))",
-  "injectionSelector": "L:source.perl",
-  "patterns": [
-    {
-      "end": "^__END__$\\n?",
-      "begin": "^__DATA__$\\n?",
-      "patterns": [
-        {
-          "match": "(^@@.*)",
-          "captures": {
-            "1": {
-              "name": "comment.mojolicious"
-            }
-          },
-          "name": "source.perl.mojolicious.comment"
+  "injectionSelector": "source.perl",
+  "patterns": [{
+    "end": "^__END__$\\n?",
+    "begin": "^__DATA__$\\n?",
+    "patterns": [
+      {
+        "match": "(^@@.*)",
+        "captures": {
+          "1": {
+            "name": "comment.mojolicious"
+          }
         },
-        {
-          "include": "text.html.mojolicious"
-        }
-      ],
-      "name": "text.html.mojolicious.block"
-    },
-    {
-      "include": "source.perl"
-    }
-  ],
+        "name": "source.perl.mojolicious.comment"
+      },
+      {
+        "include": "text.html.mojolicious"
+      }
+    ],
+    "name": "text.html.mojolicious.block"
+  }],
   "name": "Perl (Mojolicious)",
   "scopeName": "source.perl.mojolicious"
 }

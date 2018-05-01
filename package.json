@@ -47,7 +47,10 @@
             {
                 "injectInto": ["source.perl"],
                 "scopeName": "source.perl.mojolicious",
-                "path": "./syntaxes/Perl+Mojolicious.json"
+                "path": "./syntaxes/Perl+Mojolicious.json",
+                "embeddedLanguages": {
+                  "text.html.mojolicious": "mojolicious"
+                }
             },
             {
                 "language": "mojolicious",
