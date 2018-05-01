@@ -2,7 +2,7 @@
   "fileTypes": [ ],
   "foldingStartMarker": "(/\\*|(\\{|\\[|\\()\\s*$)",
   "foldingStopMarker": "(\\*/|^\\s*(\\}|\\]|\\)))",
-  "injectionSelector": "L:code.perl",
+  "injectionSelector": "L:source.perl",
   "patterns": [
     {
       "end": "^__END__$\\n?",

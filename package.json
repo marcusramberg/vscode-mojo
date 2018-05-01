@@ -45,7 +45,7 @@
         ],
         "grammars": [
             {
-                "injectInto": "source.mojolicious",
+                "injectInto": ["source.perl"],
                 "scopeName": "source.perl.mojolicious",
                 "path": "./syntaxes/Perl+Mojolicious.json"
             },
